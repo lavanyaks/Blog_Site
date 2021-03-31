@@ -1,0 +1,145 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color:rgb(223, 255, 252); */
+    /* font-family: 'Ubuntu', sans-serif; */
+}
+html{
+  scroll-behavior: smooth;
+}
+
+/* Navigation Bar */
+
+.navigation {
+  height: 63px;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* position: sticky; */
+}
+.nav-left{
+  font-size: 27px;
+  display: flex;
+  align-items: center;
+}
+.nav-left span a{
+  text-decoration: none;
+  color: black;
+}
+.nav-left ul{
+  display: flex;
+  align-items: center;
+  margin: 0px 35px;
+  font-size: 20px;
+  
+}
+.nav-left ul li{
+  list-style: none;
+  margin: 0px 12px;
+  transition: all 0.3s;
+  border: 3px solid rgba(0, 0, 0, 0);
+  padding: 3px;
+}
+.nav-left ul li:hover{
+
+  border: 3px solid cornflowerblue;
+}
+
+.nav-left ul li a{
+  text-decoration: none;
+  color: black;
+  
+}
+/* .nav-right{
+
+} */
+
+/* Content */
+
+.content {
+  height: 395px;
+  display: flex;
+  /* background-color: rgb(221, 217, 245); */
+  margin-top: 27px;
+  margin-bottom: 27px;
+  padding: 12px;
+  position: relative;
+}
+.content::before{
+  background-image: url('../Img/nip.png');
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: inherit;
+  opacity: 0.1;
+}
+.content-left{
+  width: 50%;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  flex-direction: column;
+  margin: 5px;
+  padding: 27px;
+  z-index: 1;
+}
+.content-left h1{
+  margin: 12px 0px;
+}
+.content-right{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content-right img{
+  height: 270px;
+  z-index: 1;
+}
+
+/* Home Articles */
+
+.home-articles{
+  /* height: 459px; */
+  padding-top: 36px;
+  margin-top: 27px;
+  background-color: rgb(234, 254, 255);
+}
+.home-articles h2{
+  padding-left: 22px;
+}
+.home-article{
+  display: flex;
+  padding-left: 36px;
+  padding-bottom: 27px;
+  margin: 27px;
+}
+.home-article-content{
+  align-self: center;
+  padding: 27px;
+}
+.home-article-content a{
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+  transition: all 0.3s;
+}
+.home-article-content a:hover{
+  color: rgb(152, 185, 157);
+}
+.home-article img{
+  width: 306px;
+}
+
+/* Footer */
+
+.footer {
+  height: 40px;
+  background-color: rgb(7, 14, 34);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

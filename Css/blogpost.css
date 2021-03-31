@@ -1,0 +1,10 @@
+.post-img{
+    height: 120px;
+    overflow: hidden;
+    margin-top: 7px;
+    /* border: 2px solid red; */
+}
+.post-img img{
+    width: 100%;
+    
+}
