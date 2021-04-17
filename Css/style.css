@@ -68,7 +68,7 @@ html{
   position: relative;
 }
 .content::before{
-  background-image: url('../Img/nip.png');
+  background-image: url('../img/nip.png');
   content: "";
   position: absolute;
   width: 100%;
